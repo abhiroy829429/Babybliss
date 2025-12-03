@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" viewBox="0 0 72 72">
+  <circle cx="36" cy="36" r="32" fill="#ff8fb1" />
+  <text x="50%" y="53%" dominant-baseline="middle" text-anchor="middle"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif"
+        font-weight="700" font-size="28" fill="#ffffff">
+    BB
+  </text>
+</svg>
+
+

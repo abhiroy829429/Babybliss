@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-baby-pink: #ffe6f0;
+  --color-baby-blue: #e6f4ff;
+  --color-baby-mint: #e6fff4;
+  --color-brand: #ff8fb1;
+  --color-brand-dark: #ff5f91;
+}
+
+body {
+  @apply bg-gradient-to-b from-baby-pink via-white to-baby-blue text-slate-900;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Helvetica Neue", sans-serif;
+}
+
+
