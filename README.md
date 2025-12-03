@@ -45,29 +45,6 @@ This project demonstrates **client‑initiated notifications only** (no backend 
   - `registration.showNotification("BabyBliss", { ... })`
 - If there is no service worker registration, it falls back to `new Notification(...)`.
 
-This is sufficient for assessment of the “push‑notifications” requirement in a demo context.
 
-### Deploying & GitHub
-
-1. **Create a GitHub repo**
-   - In this folder (`babybliss`), run:
-     ```bash
-     git init
-     git add .
-     git commit -m "BabyBliss PWA demo"
-     git branch -M main
-     git remote add origin <your-github-repo-url>
-     git push -u origin main
-     ```
-2. **Deploy to Vercel (recommended for Next.js)**
-   - Go to Vercel, **Import Project from GitHub**, choose your BabyBliss repo.
-   - Use default Next.js settings; Vercel will detect and deploy automatically.
-
-After that you will have:
-
-- **GitHub repo link** – e.g. `https://github.com/<your-username>/babybliss`
-- **Live preview link** – e.g. `https://babybliss-demo.vercel.app`
-
-You can share those actual URLs once you push and deploy.
 
 
